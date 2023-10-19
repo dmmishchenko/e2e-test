@@ -10,7 +10,8 @@
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "cypress:component": "cypress run --config video=false --component"
   },
   "private": true,
   "dependencies": {
