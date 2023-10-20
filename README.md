@@ -13,9 +13,12 @@ This project shows how write unit and e2e tests
 - run `ng serve`
 
 ## Running unit tests with Jasmine
-
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests with Cypress
+Test placed inside `cypress/e2e`
+- Run `ng e2e` to execute the end-to-end tests via [Cypress](https://www.cypress.io/).
 
-Run `ng e2e` to execute the end-to-end tests via [Cypress](https://www.cypress.io/). To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Running end-to-end component testing with Cypress
+Test placed inside `cypress/component`
+- Run `npm run cypress:component`
