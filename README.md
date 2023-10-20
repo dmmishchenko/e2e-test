@@ -1,4 +1,4 @@
-# E2eTest
+# E2E_Test
 
 This project shows how write unit and e2e tests
 
