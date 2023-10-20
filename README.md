@@ -2,7 +2,7 @@
 
 This project shows how write unit and e2e tests
 
-## environment requirements
+## Environment requirements
 
 - Node.js in versions 14.20.x, 16.13.x or 18.10.x or higher.
 
