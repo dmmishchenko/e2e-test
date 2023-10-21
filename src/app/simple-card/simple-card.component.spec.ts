@@ -42,4 +42,13 @@ describe('SimpleCardComponent', () => {
     component.clicked();
     expect(component.isActive).toBe(false);
   });
+
+  it('should emit output value', () => {
+    const emittedValue = !component.isActive;
+    const emitter = fixture.componentInstance.cardClicked;
+
+    spyOn(emitter, 'emit');
+    component.clicked();
+    expect(emitter.emit).toHaveBeenCalledWith(emittedValue);
+  });
 });
